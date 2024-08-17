@@ -11,7 +11,7 @@ const Hello = () => {
   };
   return (
     <div>
-      <h1>LOGIN PAGE</h1>
+      <h1 className="heading">LOGIN PAGE</h1>
       <br></br>
       <h2>
         <Link href="/about">Go to about page</Link>

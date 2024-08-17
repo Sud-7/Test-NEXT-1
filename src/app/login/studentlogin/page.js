@@ -3,7 +3,7 @@ import React from "react";
 const StudentLogin = () => {
   return (
     <div>
-      <h1>Student Login</h1>
+      <h1 className="heading">Student Login</h1>
     </div>
   );
 };

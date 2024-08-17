@@ -9,10 +9,15 @@ export default function Home() {
     <main className={styles.main}>
       <div>
         <h1>HOME PAGE</h1>
+
         <br></br>
         <Link href="/login">Go to Login Page</Link>
         <br></br>
-        <Link href="/about">Go to about Page</Link>
+        <Link href="/about">Go to About Page</Link>
+        <br></br>
+        <Link href="/study">Go to Study Page</Link>
+        <br></br>
+        <Link href="/studentlist">Go to Student List Page</Link>
         <br></br>
         <button onClick={() => router.push("/login")}>Move LOGIN</button>
         <br></br>

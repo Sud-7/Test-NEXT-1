@@ -8,14 +8,15 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div>
-        <h1>HOME PAAGE</h1>
+        <h1>HOME PAGE</h1>
         <br></br>
-        <Link href="/login">Go to about Login</Link>
+        <Link href="/login">Go to Login Page</Link>
         <br></br>
         <Link href="/about">Go to about Page</Link>
         <br></br>
-        <button onClick={() => router.push("/login")}>GO TO LOGIN</button>
-        <button onClick={() => router.push("/about")}>GO TO ABOUT</button>
+        <button onClick={() => router.push("/login")}>Move LOGIN</button>
+        <br></br>
+        <button onClick={() => router.push("/about")}>Move ABOUT</button>
       </div>
     </main>
   );
